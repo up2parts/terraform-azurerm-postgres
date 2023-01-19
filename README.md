@@ -23,7 +23,7 @@ tags|(Optional)|A mapping of tags to assign to the resource
 
 
 #### Usage:
-```sh
+```hcl
 module "mypostgresql" {
   source                       = "github.com/up2parts/terraform-azurerm-postgres"
   name                         = "mypostgresqlserver"
