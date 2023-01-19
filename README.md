@@ -25,7 +25,7 @@ tags|(Optional)|A mapping of tags to assign to the resource
 #### Usage:
 ```hcl
 module "mypostgresql" {
-  source                       = "github.com/up2parts/terraform-azurerm-postgres"
+  source                       = "github.com/up2parts/terraform-azurerm-postgres?ref=1.0.0"
   name                         = "mypostgresqlserver"
   resource_group_name          = "myresourcegroup"
   location                     = "westeurope"
